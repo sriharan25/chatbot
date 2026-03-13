@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Machine Learning Chatbot</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<h2 class="logo">ML Bot 🤖</h2>
+
+<ul>
+
+<li class="active">💬 Chat</li>
+<li>📚 Machine Learning</li>
+<li>📊 Algorithms</li>
+<li>⚙ Settings</li>
+
+</ul>
+
+</div>
+
+
+<!-- Main Chat Section -->
+
+<div class="main">
+
+<header>
+
+<h1>Machine Learning Chatbot</h1>
+
+<p>Your AI assistant for Machine Learning concepts</p>
+
+</header>
+
+
+<div class="chat-container">
+
+<div class="chat-box" id="chatBox">
+
+<div class="bot-message">
+
+👋 Hello!  
+Ask me anything about **Machine Learning, Algorithms, or AI concepts.**
+
+</div>
+
+</div>
+
+
+<div class="input-area">
+
+<input type="text" id="userInput" placeholder="Ask something about Machine Learning...">
+
+<button onclick="sendMessage()">Send 🚀</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
